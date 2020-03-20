@@ -4,7 +4,7 @@
   "description": "GraphQL generator error",
   "main": "index.js",
   "scripts": {
-    "codegen": "graphql-codegen",
+    "codegen": "VERBOSE=1 graphql-codegen",
     "codegen2": "graphql-codegen -c codegen-cam.yml",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
