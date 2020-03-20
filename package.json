@@ -1,0 +1,27 @@
+{
+  "name": "gqlgen-error",
+  "version": "1.0.0",
+  "description": "GraphQL generator error",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fetis/gqlgen-error.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fetis/gqlgen-error/issues"
+  },
+  "homepage": "https://github.com/fetis/gqlgen-error#readme",
+  "dependencies": {
+    "@graphql-codegen/cli": "^1.13.1",
+    "@graphql-codegen/typescript": "^1.0.0",
+    "@graphql-codegen/typescript-operations": "^1.0.0",
+    "@graphql-codegen/add": "^1.0.0",
+    "@graphql-codegen/fragment-matcher": "^1.0.0",
+    "graphql-tag": "^2.10.3"
+  }
+}

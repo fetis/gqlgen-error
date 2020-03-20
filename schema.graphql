@@ -1,0 +1,18 @@
+interface BaseType {
+    id: String!
+}
+
+type SubTypeA implements BaseType {
+ id: String!
+ field: String
+}
+
+type SubTypeB implements BaseType {
+ id: String!
+ field: String!
+}
+
+
+type Query {
+    getAllSubTypes: [BaseType!]!
+}
