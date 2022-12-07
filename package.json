@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/fetis/gqlgen-error#readme",
   "dependencies": {
-    "@graphql-codegen/cli": "^1.13.1",
+    "@graphql-codegen/cli": "^1.21.8",
     "@graphql-codegen/typescript": "^1.0.0",
     "@graphql-codegen/typescript-operations": "^1.0.0",
     "@graphql-codegen/add": "^1.0.0",
